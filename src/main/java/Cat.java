@@ -10,6 +10,9 @@ public class Cat extends Animal {
     @Override
     public void showMood() {
         System.out.println("Spinder eller hvæser");
+    }
+    @Override
+    public void jump(double distance) {
 
     }
 }
