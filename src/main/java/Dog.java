@@ -6,6 +6,11 @@ public class Dog extends Animal {
     @Override
     public boolean eat(String foodType) {
         return true;
+    }
+    @Override
+    public void showMood() {
+        System.out.println("Logrer eller knurrer");
 
     }
 }
+
