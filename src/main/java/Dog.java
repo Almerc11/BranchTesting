@@ -10,6 +10,9 @@ public class Dog extends Animal {
     @Override
     public void showMood() {
         System.out.println("Logrer eller knurrer");
+    }
+    @Override
+    public void jump(double distance) {
 
     }
 }

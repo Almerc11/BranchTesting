@@ -7,4 +7,6 @@ public abstract class Animal {
 
     public abstract void showMood();
 
+    public abstract void jump(double distance);
+
 }
